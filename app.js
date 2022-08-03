@@ -9,7 +9,7 @@ const exec = require('child_process').exec;
 
 const HOST = 'https://www.ticketswap.com';
 const EVENT_URL = '/event/coldplay-music-of-spheres-world-tour-2022/category-1-seated/09ba85e1-dcaf-4cc1-ba91-27b558cdd1e7/1884479';
-const CHECK_INTERVAL_MS = 60000;
+const CHECK_INTERVAL_MS = 10000;
 
 let cookieJar = request.jar();
 
